@@ -120,7 +120,7 @@ do
     elif [ $ch -eq 2 ];then
         $PYTHON bomber.py --call
         exit
-    elif [ $ch -eq 4 ];then
+    elif [ $ch -eq 3 ];then
         $PYTHON bomber.py --mail
         exit
     elif [ $ch -eq 9 ];then
@@ -130,7 +130,7 @@ do
         echo -e "\e[1;34m RUN GBxBomb Again..."
         pause
         exit
-    elif [ $ch -eq 5 ];then
+    elif [ $ch -eq 4 ];then
         banner
         exit
     else
