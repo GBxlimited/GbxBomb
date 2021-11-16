@@ -238,7 +238,7 @@ def pretty_print(cc, target, success, failed):
     mesgdcrt.GeneralMessage("Failed       : " + str(failed))
     mesgdcrt.WarningMessage(
         "This tool was made for fun and research purposes only")
-    mesgdcrt.SuccessMessage("TBomb was created by SpeedX")
+    mesgdcrt.SuccessMessage("TBomb was created by GBxlimited")
 
 
 def workernode(mode, cc, target, count, delay, max_threads):
@@ -305,12 +305,12 @@ def selectnode(mode="sms"):
         check_for_updates()
         notifyen()
 
-        max_limit = {"sms": 1000, "call": 5000, "mail": 2000}
+        max_limit = {"sms": 10000, "call": 5000, "mail": 2000}
         cc, target = "", ""
         if mode in ["sms", "call"]:
             cc, target = get_phone_info()
             if cc != "91":
-                max_limit.update({"sms": 1000})
+                max_limit.update({"sms": 10000})
         elif mode == "mail":
             target = get_mail_info()
         else:
@@ -369,7 +369,7 @@ except FileNotFoundError:
 
 
 __VERSION__ = get_version()
-__CONTRIBUTORS__ = ['loltage', 'Mr_Indian_Anon', 'Gblimited', 'Telegram']
+__CONTRIBUTORS__ = ['@loltage', '@Mr_Indian_Anon', 'Gblimited']
 
 ALL_COLORS = [Fore.GREEN, Fore.RED, Fore.YELLOW, Fore.BLUE,
               Fore.MAGENTA, Fore.CYAN, Fore.WHITE]
