@@ -41,7 +41,7 @@ banner() {
     echo " "
     echo -e "\e[1;32m   Telegram: https://t.me/Mr_Indian_Anon \e[0m"
     echo " "
-    echo -e "\e[4;32m     Owner: https://t.me/Loltage \e[0m"
+    echo -e "\e[4;32m          Owner: https://t.me/Loltage \e[0m"
     echo " "
     echo "NOTE:Update PIP3 version for GBxBomb is more stability."
     echo " "
