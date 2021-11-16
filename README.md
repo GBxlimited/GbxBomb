@@ -54,15 +54,15 @@ Before continuing make sure following requirements are satisfied:
 - Python version greater than or equal to 3.4 is installed
 - pip is installed for Python 3
 
-Install `tbomb` package by running:
+Install `gbxbomb` package by running:
 
 ```shell script
 pip3 install GbxBomb
 ```
 
-Run TBomb by just typing:
+Run GBxBomb by just typing:
 ```shell script
-tbomb
+gbxbomb
 ```
 
 ### Install from GIT
