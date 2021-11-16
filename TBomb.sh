@@ -27,21 +27,22 @@ banner() {
     clear
     echo -e "\e[1;31m"
     if ! [ -x "$(command -v figlet)" ]; then
-        echo 'Introducing TBomb'
+        echo 'Introducing GBxBomb'
     else
-        figlet TBomb
+        figlet GBxBomb
     fi
     if ! [ -x "$(command -v toilet)" ]; then
-        echo -e "\e[4;34m This Bomber Was Created By \e[1;32mSpeedX \e[0m"
+        echo -e "\e[4;34m This Bomber Was Created By \e[1;32mGBXX \e[0m"
     else
         echo -e "\e[1;34mCreated By \e[1;34m"
-        toilet -f mono12 -F border SpeedX
+        toilet -f mono12 -F border GBXX
     fi
     echo -e "\e[1;34m For Any Queries Join Me!!!\e[0m"
-    echo -e "\e[1;32m           Telegram: https://t.me/TBombChat \e[0m"
-    echo -e "\e[4;32m   YouTube: https://www.youtube.com/c/SpeedXTech \e[0m"
+    echo -e "\e[1;32m   Telegram: https://t.me/Mr_Indian_Anon \e[0m"
     echo " "
-    echo "NOTE: Kindly move to the PIP version Of TBomb for more stability."
+    echo -e "\e[4;32m     Owner: https://t.me/Loltage \e[0m"
+    echo " "
+    echo "NOTE:Update PIP3 version for GBxBomb is more stability."
     echo " "
 }
 
@@ -107,11 +108,10 @@ do
     banner
     echo -e "\e[4;31m Please Read Instruction Carefully !!! \e[0m"
     echo " "
-    echo "Press 1 To  Start SMS  Bomber "
-    echo "Press 2 To  Start CALL Bomber "
-    echo "Press 3 To  Start MAIL Bomber (Not Yet Available)"
-    echo "Press 4 To  Update (Works On Linux And Linux Emulators) "
-    echo "Press 5 To  Exit "
+    echo "Press 1 To  Start GBxSMS  Bomber "
+    echo "Press 2 To  Start GBxCALL Bomber "
+    echo "Press 3 To  Start GBxMAIL Bomber (Not Yet Available)"
+    echo "Press 4 To  Exit "
     read ch
     clear
     if [ $ch -eq 1 ];then
@@ -120,14 +120,14 @@ do
     elif [ $ch -eq 2 ];then
         $PYTHON bomber.py --call
         exit
-    elif [ $ch -eq 3 ];then
+    elif [ $ch -eq 4 ];then
         $PYTHON bomber.py --mail
         exit
-    elif [ $ch -eq 4 ];then
+    elif [ $ch -eq 9 ];then
         echo -e "\e[1;34m Downloading Latest Files..."
         rm -f .update
         $PYTHON bomber.py --update
-        echo -e "\e[1;34m RUN TBomb Again..."
+        echo -e "\e[1;34m RUN GBxBomb Again..."
         pause
         exit
     elif [ $ch -eq 5 ];then
