@@ -57,7 +57,7 @@ Before continuing make sure following requirements are satisfied:
 Install `tbomb` package by running:
 
 ```shell script
-pip3 install tbomb
+pip3 install GbxBomb
 ```
 
 Run TBomb by just typing:
@@ -71,7 +71,7 @@ tbomb
 
 Git installation methods are not universal and are likely to differ between distributions so installing Git as per the given instructions below may not work. Please check out how to install Git for your Linux distribution [here](https://git-scm.com/). Commands below provide instructions for Debian-based systems.
 
->Running `TBomb.sh` as sudo miscofigures files ownership. It is recommended not to run it as sudo
+>Running `GbxBomb.sh` as sudo miscofigures files ownership. It is recommended not to run it as sudo
 
 Run these commands to clone and run TBomb.
 
@@ -81,9 +81,9 @@ To use the bomber type the following commands in Termux:
 ```shell script
 pkg install git -y 
 pkg install python -y 
-git clone https://github.com/TheSpeedX/TBomb.git
-cd TBomb
-./TBomb.sh
+git clone https://github.com/GBxlimited/GbxBomb.git
+cd GbxBomb
+./GbxBomb.sh
 ```
 
 #### For iSH
@@ -95,11 +95,11 @@ apk add python3
 apk add py3-pip
 apk add ruby
 gem install toilet
-git clone https://github.com/TheSpeedX/TBomb.git
-cd TBomb
+git clone https://github.com/GBxlimited/GbxBomb.git
+cd GbxBomb
 pip3 install -r requirements.txt
-chmod +x TBomb.sh
-./TBomb.sh
+chmod +x GbxBomb.sh
+./GbxBomb.sh
 ```
 
 #### For Debian-based GNU/Linux distributions
@@ -107,9 +107,9 @@ chmod +x TBomb.sh
 To use the application, type in the following commands in GNU/Linux terminal.
 ```shell script
 sudo apt install git
-git clone https://github.com/TheSpeedX/TBomb.git
-cd TBomb
-bash TBomb.sh
+git clone https://github.com/GBxlimited/GbxBomb.git
+cd GbxBomb
+bash GbxBomb.sh
 ```
 
 #### For MacOS
@@ -129,34 +129,15 @@ brew install git
 brew install python3
 sudo easy_install pip
 sudo pip install --upgrade pip
-git clone https://github.com/TheSpeedX/TBomb.git
-cd TBomb
-bash TBomb.sh
+git clone https://github.com/GBxlimited/GbxBomb.git
+cd GbxBomb
+bash GbxBomb.sh
 ```
 
 
 ##### Missing Tools on MacOS
 
 The package `toilet` cannot be installed yet on macOS. But TBomb does still work.
-
-### Demonstrative Video:
-
-- Watch Indian Bombing Method [here](https://youtu.be/9KWkwsr_QGw)  
-- Watch International Bombing Method [here](https://youtu.be/JqsHkyIcnPM).  
-
-## Contributors
-
-- Catch **[t0xic0der](https://github.com/t0xic0der)** at https://atlasdoc.netlify.app
-- Check **[Avinash](https://github.com/AvinashReddy3108)** at https://github.com/AvinashReddy3108
-- Mail **[scpketer](https://github.com/scpketer)** at scpketer@protonmail.ch
-- Mail **[0n1cOn3](https://github.com/0n1cOn3)** at 0n1cOn3@gmx.ch
-- Ping **Rieltar** at https://t.me/RieltarReborn
-
-
-### Donators:
-
-- **[34D30Y](34db0y@protonmail.com)**
-- **SC AMAN**
 
 ### TODO:
 
@@ -170,7 +151,7 @@ The package `toilet` cannot be installed yet on macOS. But TBomb does still work
 
 **Q:** Is there any TBomb Website/App ?
 
-**A:** There is no official website/app yet.The only official releases of TBomb are published in [Github](https://github.com/TheSpeedX/TBomb) and [PyPi](https://pypi.org/project/tbomb)
+**A:** There is no official website/app yet.The only official releases of GBxBomb are published in [Github](https://github.com/GBxlimited/GbxBomb)
 ##
 **Q:** Poor Internet Connection Detected:
 
@@ -196,19 +177,19 @@ The package `toilet` cannot be installed yet on macOS. But TBomb does still work
 
 **A:** First, make sure `python3` and `pip3` are installed. 
 - The Easy Method:  
-   `pip3 install tbomb`  
-    Then execute by simply running `tbomb`
+   `pip3 install GBxbomb`  
+    Then execute by simply running `GBxbomb`
 - The Git Method:  
-    Clone the repo and Switch to the TBomb Directory and execute this command:  
+    Clone the repo and Switch to the GBxBomb Directory and execute this command:  
     `pip3 install -r requirements.txt`
 ##
-**Q:** Help, It says `command 'tbomb' not found` after installing PIP version!
+**Q:** Help, It says `command 'GBxbomb' not found` after installing PIP version!
 
-**A:** Try running `sudo pip3 install tbomb`
+**A:** Try running `sudo pip3 install GBxbomb`
 ##
-**Q:** Help, I can't execute TBomb.sh!
+**Q:** Help, I can't execute GBxBomb.sh!
 
-**A:** Run TBomb Directly with `python3 bomber.py`
+**A:** Run GBxBomb Directly with `python3 bomber.py`
 ##
 **Q:** Should I use VPN? 
 
@@ -224,7 +205,7 @@ The package `toilet` cannot be installed yet on macOS. But TBomb does still work
 ##
 ### Support
 
-For Queries: [Telegram Group](https://t.me/TBombChat)  
+For Queries: [Telegram Group](https://t.me/koliXsupport)  
 Contributions, issues, and feature requests are welcome!  
 Give a ★ if you like this project!
 
