@@ -114,7 +114,7 @@ def do_zip_update():
         mesgdcrt.GeneralMessage(
             "Please run the script again to load the latest version")
     else:
-        mesgdcrt.FailureMessage("Unable to update TBomb.")
+        mesgdcrt.FailureMessage("Unable to update GBxBomb.")
         mesgdcrt.WarningMessage(
             "Grab The Latest one From https://github.com/GBxlimited/GbxBomb.git")
 
@@ -380,12 +380,12 @@ DEBUG_MODE = False
 
 description = """GBxBomb - Your Friendly Spammer Application
 
-TBomb can be used for many purposes which incudes -
+GBxBomb can be used for many purposes which incudes -
 \t Exposing the vulnerable APIs over Internet
 \t Friendly Spamming
 \t Testing Your Spam Detector and more ....
 
-TBomb is not intented for malicious uses.
+GBxBomb is not intented for malicious uses.
 """
 
 parser = argparse.ArgumentParser(description=description,
