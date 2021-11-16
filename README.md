@@ -2,7 +2,7 @@
   <br>
   <a href="https://github.com/GBxlimited/GbxBomb"><img src="https://i.ibb.co/F4HBKqm/TBomb.png" alt="TBomb"></a>
   <br>
-  GBxBomb v2.1b
+  GBxBomb v2.0
   <br>
 </h1>
 
