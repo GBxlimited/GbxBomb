@@ -38,6 +38,7 @@ banner() {
         toilet -f mono12 -F border GBXX
     fi
     echo -e "\e[1;34m For Any Queries Join Me!!!\e[0m"
+    echo " "
     echo -e "\e[1;32m   Telegram: https://t.me/Mr_Indian_Anon \e[0m"
     echo " "
     echo -e "\e[4;32m     Owner: https://t.me/Loltage \e[0m"
