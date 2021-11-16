@@ -110,7 +110,7 @@ def do_zip_update():
         except Exception:
             mesgdcrt.FailureMessage("Error occured while extracting !!")
     if success:
-        mesgdcrt.SuccessMessage("TBomb was updated to the latest version")
+        mesgdcrt.SuccessMessage("GBxBomb was updated to the latest version")
         mesgdcrt.GeneralMessage(
             "Please run the script again to load the latest version")
     else:
