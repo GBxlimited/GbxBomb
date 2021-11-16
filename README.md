@@ -171,7 +171,7 @@ The package `toilet` cannot be installed yet on macOS. But TBomb does still work
 ##
 **Q:** Why is the limit so low?
 
-**A:** Due the amount of requests, the APIs can die. To prevent a bigger outtake of TBomb, it has been limited. 
+**A:** Due the amount of requests, the APIs can die. To prevent a bigger outtake of GBxBomb, it has been limited. 
 ##
 **Q:** Help, I got the error that the requirements aren't installed, even when the installer has successfully reached the main menu
 
