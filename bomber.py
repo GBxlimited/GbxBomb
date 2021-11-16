@@ -310,12 +310,12 @@ def selectnode(mode="sms"):
         check_for_updates()
         notifyen()
 
-        max_limit = {"sms": 500, "call": 15, "mail": 200}
+        max_limit = {"sms": 1000, "call": 5000, "mail": 2000}
         cc, target = "", ""
         if mode in ["sms", "call"]:
             cc, target = get_phone_info()
             if cc != "91":
-                max_limit.update({"sms": 100})
+                max_limit.update({"sms": 1000})
         elif mode == "mail":
             target = get_mail_info()
         else:
@@ -374,7 +374,7 @@ except FileNotFoundError:
 
 
 __VERSION__ = get_version()
-__CONTRIBUTORS__ = ['SpeedX', 't0xic0der', 'scpketer', 'Stefan']
+__CONTRIBUTORS__ = ['loltage', 'Mr_Indian_Anon', 'Gblimited', 'Telegram']
 
 ALL_COLORS = [Fore.GREEN, Fore.RED, Fore.YELLOW, Fore.BLUE,
               Fore.MAGENTA, Fore.CYAN, Fore.WHITE]
@@ -383,7 +383,7 @@ RESET_ALL = Style.RESET_ALL
 ASCII_MODE = False
 DEBUG_MODE = False
 
-description = """TBomb - Your Friendly Spammer Application
+description = """GBxBomb - Your Friendly Spammer Application
 
 TBomb can be used for many purposes which incudes -
 \t Exposing the vulnerable APIs over Internet
